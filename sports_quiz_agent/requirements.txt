@@ -1,0 +1,38 @@
+# ==============================================================================
+# AI Powered Sports Quiz Generation Agent - Dependencies
+# ==============================================================================
+
+# --- Core UI ---
+streamlit==1.38.0
+
+# --- LLM Providers ---
+groq==0.11.0
+google-generativeai==0.8.3
+
+# --- LangChain (used for prompt templating / message abstractions) ---
+langchain==0.3.4
+langchain-core==0.3.12
+langchain-google-genai==2.0.1
+
+# --- Vector Database ---
+chromadb==0.5.15
+
+# --- Embeddings ---
+sentence-transformers==3.2.0
+
+# --- Web Search (live grounding) ---
+duckduckgo-search==6.3.0
+
+# --- Config / Environment ---
+python-dotenv==1.0.1
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# --- Reliability / Retries ---
+tenacity==8.5.0
+# --- Export Utilities ---
+fpdf2==2.8.2
+markdown==3.7
+
+# --- Misc utilities ---
+python-dateutil==2.9.0.post0
